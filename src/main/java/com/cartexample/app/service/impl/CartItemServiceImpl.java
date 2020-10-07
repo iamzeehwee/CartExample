@@ -19,16 +19,26 @@ public class CartItemServiceImpl implements CartItemService {
 		this.cartItemRepository = cartItemRepository;
 	}
 	
+	// Retrieve all items in cart
 	public List<CartItem> getAllCartItems() {
 		return cartItemRepository.findAll();
 	}
 
+	// Add 1 item into cart
 	public CartItem addCartItem(CartItem item) {
 		return cartItemRepository.save(item);
 	}
 
+	// Remove 1 item from cart
 	public String removeCartItem(int id) {
 		cartItemRepository.deleteById(id);
-		return "Cart Item removed";
+		return "Cart Item delete";
+	}
+	
+	// Update cart item
+	public CartItem updateCartItem(CartItem item) {
+		CartItem updateItem = cartItemRepository.getOne(item.getId());
+		updateItem.setQuantity(item.getQuantity());
+		return cartItemRepository.save(updateItem);
 	}
 }

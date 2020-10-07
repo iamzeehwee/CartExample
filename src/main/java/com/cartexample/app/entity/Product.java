@@ -34,12 +34,18 @@ public class Product {
 	@OneToMany(mappedBy = "product", cascade=CascadeType.ALL)
 	// Add this annotation to resolve Jackson infinite recursion due to bidirectional relationship
 	@JsonBackReference
-	public List<CartItem> cartItems; //= new ArrayList<>();
+	public List<CartItem> cartItems;
 	
 	public Product() {
 	}
-
+	
 	public Product(String prodName, float prodPrice) {
+		this.prodName = prodName;
+		this.prodPrice = prodPrice;
+	}
+	
+	public Product(int id, String prodName, float prodPrice) {
+		this.id = id;
 		this.prodName = prodName;
 		this.prodPrice = prodPrice;
 	}

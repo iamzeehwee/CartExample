@@ -8,7 +8,4 @@ public interface ProductService {
 	
 	// Get entire list of product 
 	public List<Product> getAllProducts();
-	
-	// Get one product
-	//public Product getProduct(int id);
 }
