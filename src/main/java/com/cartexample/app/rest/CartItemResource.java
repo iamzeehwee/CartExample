@@ -34,10 +34,16 @@ public class CartItemResource {
 		return ResponseEntity.ok().body(items);
     }	
 	
+	/*
 	@PostMapping("/cartItem/add")
 	public ResponseEntity<CartItem> addCartItem(@RequestBody CartItem item) {
 		CartItem cartItem = cartItemService.addCartItem(item);
 		return ResponseEntity.ok().body(cartItem);
+	} */
+	
+	@PostMapping("/cartItem/add")
+	public String addCartItem(@RequestBody CartItem item) {
+		return cartItemService.addCartItem(item);
 	}
 	
     @DeleteMapping("/cartItem/{id}")
@@ -48,21 +54,7 @@ public class CartItemResource {
     
 	@PutMapping("/cartItem")
 	// Use <?> instead of CartItem, used as WildCard
-	public ResponseEntity<?> updateCartItem(@RequestBody CartItem item) {
-		if (item.getQuantity() > 0) {
-			cartItemService.updateCartItem(item);
-			return new ResponseEntity<>("Quantity updated to " + item.getQuantity(), HttpStatus.OK);
-		}
-		else if (item.getQuantity() == 0) {
-			cartItemService.removeCartItem(item.getId());
-			return new ResponseEntity<>("Cart Item deleted", HttpStatus.OK);
-		}
-		else if (item.getQuantity() < 0) {
-			throw new NegativeCartQuantityException();
-		}
-		// Cannot test via Postman
-		else {
-			throw new InvalidCartQuantityException();
-		}
+	public String updateCartItem(@RequestBody CartItem item) {
+		return cartItemService.updateCartItem(item);
 	}
 }

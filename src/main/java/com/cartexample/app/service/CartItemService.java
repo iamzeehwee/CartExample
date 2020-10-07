@@ -8,9 +8,9 @@ public interface CartItemService {
 
 	public List<CartItem> getAllCartItems();
 	
-	public CartItem addCartItem(CartItem item);
+	public String addCartItem(CartItem item);
 	
 	public String removeCartItem(int id);
 	
-	public CartItem updateCartItem(CartItem item);
+	public String updateCartItem(CartItem item);
 }
