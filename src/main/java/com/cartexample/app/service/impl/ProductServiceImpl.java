@@ -10,7 +10,7 @@ import com.cartexample.app.repository.ProductRepository;
 import com.cartexample.app.service.ProductService;
 
 @Service
-@Transactional
+//@Transactional
 public class ProductServiceImpl implements ProductService {
 
 	private final ProductRepository productRepository;

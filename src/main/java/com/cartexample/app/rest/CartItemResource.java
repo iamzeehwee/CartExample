@@ -50,7 +50,6 @@ public class CartItemResource {
 	// Use <?> instead of CartItem, used as WildCard
 	public ResponseEntity<?> updateCartItem(@RequestBody CartItem item) {
 		if (item.getQuantity() > 0) {
-			System.out.println("Print:" + item.getQuantity());
 			cartItemService.updateCartItem(item);
 			return new ResponseEntity<>("Quantity updated to " + item.getQuantity(), HttpStatus.OK);
 		}
