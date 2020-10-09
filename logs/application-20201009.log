@@ -1,0 +1,810 @@
+2020-10-09 10:04:44.833 [main] DEBUG com.cartexample.app.HelloWorldSpringBoot - We've just greeted the user!
+2020-10-09 10:04:44.840 [main] INFO  com.cartexample.app.HelloWorldSpringBoot - We've just greeted the user!
+2020-10-09 10:04:44.840 [main] WARN  com.cartexample.app.HelloWorldSpringBoot - We've just greeted the user!
+2020-10-09 10:04:44.840 [main] ERROR com.cartexample.app.HelloWorldSpringBoot - We've just greeted the user!
+2020-10-09 10:04:44.840 [main] FATAL com.cartexample.app.HelloWorldSpringBoot - We've just greeted the user!
+2020-10-09 10:04:45.217 [main] DEBUG org.springframework.boot.context.logging.ClasspathLoggingApplicationListener - Application started with classpath: unknown
+2020-10-09 10:04:45.290 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-10-09 10:04:45.292 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.20.Final
+2020-10-09 10:04:45.316 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2020-10-09 10:04:45.319 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2020-10-09 10:04:45.325 [background-preinit] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-10-09 10:04:45.328 [background-preinit] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2020-10-09 10:04:45.329 [background-preinit] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-10-09 10:04:45.331 [background-preinit] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-10-09 10:04:45.483 [main] INFO  com.cartexample.app.HelloWorldSpringBoot - Starting HelloWorldSpringBoot on NCS-130720DN11 with PID 71588 (C:\workspace\cartExample\target\classes started by P1332473 in C:\workspace\cartExample)
+2020-10-09 10:04:45.492 [main] DEBUG com.cartexample.app.HelloWorldSpringBoot - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-09 10:04:45.493 [main] INFO  com.cartexample.app.HelloWorldSpringBoot - No active profile set, falling back to default profiles: default
+2020-10-09 10:04:45.494 [main] DEBUG org.springframework.boot.SpringApplication - Loading source class com.cartexample.app.HelloWorldSpringBoot
+2020-10-09 10:04:45.599 [main] DEBUG org.springframework.boot.context.config.ConfigFileApplicationListener - Loaded config file 'file:/C:/workspace/cartExample/target/classes/application.properties' (classpath:/application.properties)
+2020-10-09 10:04:45.601 [main] DEBUG org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@361c294e
+2020-10-09 10:04:45.641 [background-preinit] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2020-10-09 10:04:45.642 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-10-09 10:04:45.661 [background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-10-09 10:04:45.662 [background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-10-09 10:04:45.662 [background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-10-09 10:04:45.662 [background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-10-09 10:04:45.662 [background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-10-09 10:04:45.677 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2020-10-09 10:04:45.817 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\controller\HomeController.class]
+2020-10-09 10:04:45.828 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\repository\CartItemRepository.class]
+2020-10-09 10:04:45.834 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\repository\ProductRepository.class]
+2020-10-09 10:04:45.855 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\rest\CartItemResource.class]
+2020-10-09 10:04:45.858 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\rest\ProductResource.class]
+2020-10-09 10:04:45.863 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\rest\errors\CustomGlobalExceptionHandler.class]
+2020-10-09 10:04:45.875 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\service\impl\CartItemServiceImpl.class]
+2020-10-09 10:04:45.891 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\service\impl\ProductServiceImpl.class]
+2020-10-09 10:04:46.550 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.url' in PropertySource 'configurationProperties' with value of type String
+2020-10-09 10:04:46.689 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.h2.console.enabled' in PropertySource 'configurationProperties' with value of type String
+2020-10-09 10:04:46.883 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 6 bean definitions from URL [file:/C:/workspace/cartExample/target/classes/context.xml]
+2020-10-09 10:04:47.039 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2020-10-09 10:04:47.053 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\repository\CartItemRepository.class]
+2020-10-09 10:04:47.054 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\repository\ProductRepository.class]
+2020-10-09 10:04:47.095 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\service\impl\CartItemServiceImpl.class]
+2020-10-09 10:04:47.095 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\workspace\cartExample\target\classes\com\cartexample\app\service\impl\ProductServiceImpl.class]
+2020-10-09 10:04:47.130 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.h2.console.enabled' in PropertySource 'configurationProperties' with value of type String
+2020-10-09 10:04:47.262 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2020-10-09 10:04:47.265 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.driverClassName' in PropertySource 'applicationConfig: [classpath:/application.properties]' with value of type String
+2020-10-09 10:04:47.265 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.driverClassName' in PropertySource 'environmentProperties' with value of type String
+2020-10-09 10:04:47.265 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.url' in PropertySource 'configurationProperties' with value of type String
+2020-10-09 10:04:47.265 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.url' in PropertySource 'environmentProperties' with value of type String
+2020-10-09 10:04:47.265 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.username' in PropertySource 'configurationProperties' with value of type String
+2020-10-09 10:04:47.265 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.username' in PropertySource 'environmentProperties' with value of type String
+2020-10-09 10:04:47.265 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.password' in PropertySource 'configurationProperties' with value of type String
+2020-10-09 10:04:47.266 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.password' in PropertySource 'environmentProperties' with value of type String
+2020-10-09 10:04:47.267 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2020-10-09 10:04:47.270 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-10-09 10:04:47.271 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2020-10-09 10:04:47.272 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-10-09 10:04:47.273 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-10-09 10:04:47.276 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-10-09 10:04:47.277 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-10-09 10:04:47.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2020-10-09 10:04:47.282 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2020-10-09 10:04:47.282 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2020-10-09 10:04:47.283 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2020-10-09 10:04:47.284 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-10-09 10:04:47.309 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'methodValidationPostProcessor'
+2020-10-09 10:04:47.326 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+2020-10-09 10:04:47.330 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSourceInitializerPostProcessor'
+2020-10-09 10:04:47.332 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2020-10-09 10:04:47.333 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2020-10-09 10:04:47.334 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2020-10-09 10:04:47.334 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2020-10-09 10:04:47.335 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSourceInitializedPublisher'
+2020-10-09 10:04:47.336 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2020-10-09 10:04:47.337 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2020-10-09 10:04:47.346 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 10:04:47.347 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-10-09 10:04:47.347 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2020-10-09 10:04:47.465 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+2020-10-09 10:04:47.472 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+2020-10-09 10:04:47.472 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2020-10-09 10:04:47.476 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2020-10-09 10:04:47.476 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2020-10-09 10:04:47.489 [main] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@4d0e54e0]
+2020-10-09 10:04:47.490 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2020-10-09 10:04:47.490 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2020-10-09 10:04:47.537 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2020-10-09 10:04:47.537 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2020-10-09 10:04:47.542 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2020-10-09 10:04:47.542 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2020-10-09 10:04:47.545 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-10-09 10:04:47.570 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-10-09 10:04:47.572 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2020-10-09 10:04:47.573 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-10-09 10:04:47.576 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2020-10-09 10:04:47.576 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2020-10-09 10:04:47.580 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2020-10-09 10:04:47.580 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-10-09 10:04:47.587 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2020-10-09 10:04:47.587 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2020-10-09 10:04:47.588 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2020-10-09 10:04:47.591 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2020-10-09 10:04:47.621 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageCustomizer'
+2020-10-09 10:04:47.622 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2020-10-09 10:04:47.623 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-10-09 10:04:47.625 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2020-10-09 10:04:47.625 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2020-10-09 10:04:47.627 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServlet'
+2020-10-09 10:04:47.628 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2020-10-09 10:04:47.630 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2020-10-09 10:04:47.636 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2020-10-09 10:04:47.636 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2020-10-09 10:04:47.676 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2020-10-09 10:04:47.676 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2020-10-09 10:04:47.680 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartConfigElement'
+2020-10-09 10:04:47.680 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2020-10-09 10:04:47.681 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2020-10-09 10:04:47.688 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2020-10-09 10:04:47.707 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2020-10-09 10:04:47.841 [main] DEBUG org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory - Code archive: C:\iconnect\repo\org\springframework\boot\spring-boot\2.2.10.RELEASE\spring-boot-2.2.10.RELEASE.jar
+2020-10-09 10:04:47.841 [main] DEBUG org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory - Code archive: C:\iconnect\repo\org\springframework\boot\spring-boot\2.2.10.RELEASE\spring-boot-2.2.10.RELEASE.jar
+2020-10-09 10:04:47.842 [main] DEBUG org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-10-09 10:04:47.875 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-09 10:04:48.152 [main] DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-10-09 10:04:48.153 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2552 ms
+2020-10-09 10:04:48.155 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'h2Console'
+2020-10-09 10:04:48.155 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration'
+2020-10-09 10:04:48.157 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.h2.console-org.springframework.boot.autoconfigure.h2.H2ConsoleProperties'
+2020-10-09 10:04:48.161 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'h2Console' via factory method to bean named 'spring.h2.console-org.springframework.boot.autoconfigure.h2.H2ConsoleProperties'
+2020-10-09 10:04:48.163 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2020-10-09 10:04:48.194 [main] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+2020-10-09 10:04:48.202 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker'
+2020-10-09 10:04:48.203 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2020-10-09 10:04:48.220 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2020-10-09 10:04:48.221 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@361c294e'
+2020-10-09 10:04:48.228 [main] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:file:C:/data/sample;DB_CLOSE_DELAY=-1;AUTO_RECONNECT=TRUE]
+2020-10-09 10:04:48.509 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:file:C:/data/sample'
+2020-10-09 10:04:48.517 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestContextFilter'
+2020-10-09 10:04:48.525 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'formContentFilter'
+2020-10-09 10:04:48.526 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2020-10-09 10:04:48.535 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'characterEncodingFilter'
+2020-10-09 10:04:48.547 [main] DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-10-09 10:04:48.547 [main] DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/], webServlet urls=[/h2/*]
+2020-10-09 10:04:48.571 [main] DEBUG org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter - Filter 'requestContextFilter' configured for use
+2020-10-09 10:04:48.572 [main] DEBUG org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+2020-10-09 10:04:48.572 [main] DEBUG org.springframework.boot.web.servlet.filter.OrderedFormContentFilter - Filter 'formContentFilter' configured for use
+2020-10-09 10:04:48.585 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactory'
+2020-10-09 10:04:48.585 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2020-10-09 10:04:48.588 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2020-10-09 10:04:48.594 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2020-10-09 10:04:48.600 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+2020-10-09 10:04:48.601 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2020-10-09 10:04:48.601 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6c2d4cc6'
+2020-10-09 10:04:48.601 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2020-10-09 10:04:48.604 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+2020-10-09 10:04:48.604 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2020-10-09 10:04:48.618 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2020-10-09 10:04:48.620 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaVendorAdapter'
+2020-10-09 10:04:48.665 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+2020-10-09 10:04:48.668 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+2020-10-09 10:04:48.721 [main] DEBUG org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-10-09 10:04:48.758 [main] DEBUG org.hibernate.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@6e5e91e4
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.springframework.jdbc.datasource.DriverManagerDataSource@285005b8
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/workspace/cartExample/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.cartexample.app.entity.CartItem
+		com.cartexample.app.entity.Product]
+	Mapping files names []
+	Properties []
+2020-10-09 10:04:48.785 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2020-10-09 10:04:48.789 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2020-10-09 10:04:48.792 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2020-10-09 10:04:48.916 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-10-09 10:04:48.918 [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-10-09 10:04:49.090 [main] DEBUG org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2020-10-09 10:04:49.104 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2020-10-09 10:04:49.105 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2020-10-09 10:04:49.120 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-09 10:04:49.173 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@6fc1a8f6
+2020-10-09 10:04:49.173 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@6fc1a8f6
+2020-10-09 10:04:49.173 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6fc1a8f6
+2020-10-09 10:04:49.174 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@a9e8da1
+2020-10-09 10:04:49.174 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@4d290757
+2020-10-09 10:04:49.175 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4fad51a3
+2020-10-09 10:04:49.177 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@50ff7063
+2020-10-09 10:04:49.177 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@50ff7063
+2020-10-09 10:04:49.177 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@50ff7063
+2020-10-09 10:04:49.179 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@273dec10
+2020-10-09 10:04:49.179 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@273dec10
+2020-10-09 10:04:49.179 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@273dec10
+2020-10-09 10:04:49.181 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@1d944fc0
+2020-10-09 10:04:49.181 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@1d944fc0
+2020-10-09 10:04:49.181 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1d944fc0
+2020-10-09 10:04:49.182 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@12f9f896
+2020-10-09 10:04:49.183 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@12f9f896
+2020-10-09 10:04:49.183 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@12f9f896
+2020-10-09 10:04:49.184 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@faec277
+2020-10-09 10:04:49.184 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@faec277
+2020-10-09 10:04:49.184 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@faec277
+2020-10-09 10:04:49.186 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@2499b971
+2020-10-09 10:04:49.186 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@2499b971
+2020-10-09 10:04:49.186 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2499b971
+2020-10-09 10:04:49.188 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@171aa66
+2020-10-09 10:04:49.188 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@171aa66
+2020-10-09 10:04:49.188 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@171aa66
+2020-10-09 10:04:49.189 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2d24cdd9
+2020-10-09 10:04:49.190 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2d24cdd9
+2020-10-09 10:04:49.191 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1124910c
+2020-10-09 10:04:49.191 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1124910c
+2020-10-09 10:04:49.192 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@1231a1be
+2020-10-09 10:04:49.193 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@1231a1be
+2020-10-09 10:04:49.193 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6ce9771c
+2020-10-09 10:04:49.195 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@6ad6ae45
+2020-10-09 10:04:49.196 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@1b1e1f02
+2020-10-09 10:04:49.197 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1b1e1f02
+2020-10-09 10:04:49.198 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@ff03361
+2020-10-09 10:04:49.198 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@ff03361
+2020-10-09 10:04:49.200 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@9c0d0bd
+2020-10-09 10:04:49.200 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@9c0d0bd
+2020-10-09 10:04:49.201 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@4597e6e3
+2020-10-09 10:04:49.201 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@4597e6e3
+2020-10-09 10:04:49.203 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6cd45b6c
+2020-10-09 10:04:49.204 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6cd45b6c
+2020-10-09 10:04:49.205 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@62faf77
+2020-10-09 10:04:49.205 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@62faf77
+2020-10-09 10:04:49.207 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3cd46491
+2020-10-09 10:04:49.207 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3cd46491
+2020-10-09 10:04:49.209 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@77cddc0c
+2020-10-09 10:04:49.209 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@77cddc0c
+2020-10-09 10:04:49.212 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@74a85515
+2020-10-09 10:04:49.212 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@74a85515
+2020-10-09 10:04:49.213 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@54b44879
+2020-10-09 10:04:49.214 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@54b44879
+2020-10-09 10:04:49.215 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@4c5f7b4f
+2020-10-09 10:04:49.215 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4c5f7b4f
+2020-10-09 10:04:49.217 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@16c5b50a
+2020-10-09 10:04:49.217 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@16c5b50a
+2020-10-09 10:04:49.217 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@16c5b50a
+2020-10-09 10:04:49.218 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1d4cc7
+2020-10-09 10:04:49.220 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@20820df0
+2020-10-09 10:04:49.220 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@20820df0
+2020-10-09 10:04:49.220 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@20820df0
+2020-10-09 10:04:49.221 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@67941d
+2020-10-09 10:04:49.222 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@38d525aa
+2020-10-09 10:04:49.223 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@22686ddb
+2020-10-09 10:04:49.224 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@22686ddb
+2020-10-09 10:04:49.225 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@84f51d9
+2020-10-09 10:04:49.225 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@84f51d9
+2020-10-09 10:04:49.227 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@7d64a960
+2020-10-09 10:04:49.227 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7d64a960
+2020-10-09 10:04:49.229 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@7ed7ae
+2020-10-09 10:04:49.229 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7ed7ae
+2020-10-09 10:04:49.230 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4fe2dd02
+2020-10-09 10:04:49.230 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4fe2dd02
+2020-10-09 10:04:49.231 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@726a8729
+2020-10-09 10:04:49.232 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@266da047
+2020-10-09 10:04:49.232 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@266da047
+2020-10-09 10:04:49.232 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@266da047
+2020-10-09 10:04:49.233 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3973b6d4
+2020-10-09 10:04:49.233 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3973b6d4
+2020-10-09 10:04:49.233 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3973b6d4
+2020-10-09 10:04:49.234 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@2e7bb00e
+2020-10-09 10:04:49.235 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@5b3518e1
+2020-10-09 10:04:49.236 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@75ed7512
+2020-10-09 10:04:49.236 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@75ed7512
+2020-10-09 10:04:49.236 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@75ed7512
+2020-10-09 10:04:49.238 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7ab33ca8
+2020-10-09 10:04:49.238 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7ab33ca8
+2020-10-09 10:04:49.238 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7ab33ca8
+2020-10-09 10:04:49.238 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@7a2a7492
+2020-10-09 10:04:49.239 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@59baf2c7
+2020-10-09 10:04:49.242 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@c318864
+2020-10-09 10:04:49.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@c318864
+2020-10-09 10:04:49.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4beae1e3
+2020-10-09 10:04:49.245 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@655621fd
+2020-10-09 10:04:49.245 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@655621fd
+2020-10-09 10:04:49.247 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@6d420cdd
+2020-10-09 10:04:49.247 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6d420cdd
+2020-10-09 10:04:49.248 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@28dd81ad
+2020-10-09 10:04:49.249 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6f24ce45
+2020-10-09 10:04:49.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@2707c790
+2020-10-09 10:04:49.256 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@577f9dfd
+2020-10-09 10:04:49.256 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@577f9dfd
+2020-10-09 10:04:49.257 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@77ecdc2b
+2020-10-09 10:04:49.257 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@714f1a44
+2020-10-09 10:04:49.257 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3c09a350
+2020-10-09 10:04:49.257 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@592a1882
+2020-10-09 10:04:49.257 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@48368a08
+2020-10-09 10:04:49.257 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@41a23470
+2020-10-09 10:04:49.258 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@30c01c37
+2020-10-09 10:04:49.258 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@39a7eca5
+2020-10-09 10:04:49.271 [main] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5df64b2a] into BootstrapContext; was [null]
+2020-10-09 10:04:49.272 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5df64b2a) [was null]
+2020-10-09 10:04:49.272 [main] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@a5e8260] into BootstrapContext; was [null]
+2020-10-09 10:04:49.272 [main] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@30c7be6f] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@4a9bce99]
+2020-10-09 10:04:49.293 [main] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5df64b2a]
+2020-10-09 10:04:49.294 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5df64b2a]
+2020-10-09 10:04:49.304 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-10-09 10:04:49.305 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-10-09 10:04:49.306 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-10-09 10:04:49.306 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-10-09 10:04:49.306 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-10-09 10:04:49.307 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-10-09 10:04:49.307 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-10-09 10:04:49.308 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-10-09 10:04:49.310 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-10-09 10:04:49.311 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-10-09 10:04:49.312 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-10-09 10:04:49.312 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-10-09 10:04:49.312 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-10-09 10:04:49.314 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-10-09 10:04:49.320 [main] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:file:C:/data/sample;DB_CLOSE_DELAY=-1;AUTO_RECONNECT=TRUE]
+2020-10-09 10:04:49.321 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database ->
+       name : H2
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+2020-10-09 10:04:49.321 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver ->
+       name : H2 JDBC Driver
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+2020-10-09 10:04:49.321 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 4.1
+2020-10-09 10:04:49.337 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-09 10:04:49.380 [main] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2020-10-09 10:04:49.412 [main] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2020-10-09 10:04:49.414 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1a89414e] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@17f8db6]
+2020-10-09 10:04:49.463 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cartexample.app.entity.CartItem
+2020-10-09 10:04:49.490 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-10-09 10:04:49.495 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name CartItem
+2020-10-09 10:04:49.497 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cartexample.app.entity.CartItem on table cart_item
+2020-10-09 10:04:49.518 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart_item), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.521 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2020-10-09 10:04:49.522 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.cartexample.app.entity.CartItem:id]
+2020-10-09 10:04:49.525 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2020-10-09 10:04:49.528 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2020-10-09 10:04:49.530 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-10-09 10:04:49.532 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='product_id', referencedColumn='', mappedBy=''}
+2020-10-09 10:04:49.534 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart_item), mappingColumn=product, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.536 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property product
+2020-10-09 10:04:49.537 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart_item), mappingColumn=quantity, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.537 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property quantity with lazy=false
+2020-10-09 10:04:49.537 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.cartexample.app.entity.CartItem:quantity]
+2020-10-09 10:04:49.537 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for quantity
+2020-10-09 10:04:49.537 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property quantity
+2020-10-09 10:04:49.538 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cartexample.app.entity.Product
+2020-10-09 10:04:49.538 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-10-09 10:04:49.539 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Product
+2020-10-09 10:04:49.539 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cartexample.app.entity.Product on table product
+2020-10-09 10:04:49.542 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.542 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2020-10-09 10:04:49.542 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.cartexample.app.entity.Product:id]
+2020-10-09 10:04:49.542 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2020-10-09 10:04:49.542 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2020-10-09 10:04:49.542 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-10-09 10:04:49.542 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='product'}
+2020-10-09 10:04:49.543 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=cart_items, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.545 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.553 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.554 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=cart_items_key, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.555 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='cartItems_KEY', referencedColumn='null', mappedBy='null'}
+2020-10-09 10:04:49.555 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='product'}
+2020-10-09 10:04:49.555 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='product'}
+2020-10-09 10:04:49.556 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: com.cartexample.app.entity.Product.cartItems
+2020-10-09 10:04:49.558 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property cartItems
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=prod_name, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property prodName with lazy=false
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.cartexample.app.entity.Product:prodName]
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for prodName
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property prodName
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=prod_price, insertable=true, updatable=true, unique=false}
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property prodPrice with lazy=false
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.cartexample.app.entity.Product:prodPrice]
+2020-10-09 10:04:49.559 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for prodPrice
+2020-10-09 10:04:49.560 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property prodPrice
+2020-10-09 10:04:49.561 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2020-10-09 10:04:49.561 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for quantity
+2020-10-09 10:04:49.561 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2020-10-09 10:04:49.561 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for prodName
+2020-10-09 10:04:49.561 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for prodPrice
+2020-10-09 10:04:49.564 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [cart_item]
+2020-10-09 10:04:49.564 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [product]
+2020-10-09 10:04:49.564 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: com.cartexample.app.entity.Product.cartItems
+2020-10-09 10:04:49.565 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a OneToMany: com.cartexample.app.entity.Product.cartItems through a foreign key
+2020-10-09 10:04:49.566 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: com.cartexample.app.entity.Product.cartItems -> cart_item
+2020-10-09 10:04:49.566 [main] DEBUG org.hibernate.cfg.annotations.TableBinder - Retrieving property com.cartexample.app.entity.CartItem.product
+2020-10-09 10:04:49.567 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: product_id, one-to-many: com.cartexample.app.entity.CartItem
+2020-10-09 10:04:49.567 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: com.cartexample.app.entity.Product
+2020-10-09 10:04:49.570 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: com.cartexample.app.entity.Product
+2020-10-09 10:04:49.621 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Building session factory
+2020-10-09 10:04:49.622 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+2020-10-09 10:04:49.622 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+2020-10-09 10:04:49.622 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: null
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+2020-10-09 10:04:49.625 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: ON_CLOSE
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+2020-10-09 10:04:49.626 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+2020-10-09 10:04:49.691 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2020-10-09 10:04:49.692 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=11, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@5e2975ca, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=C:\workspace\cartExample\target\classes;C:\iconnect\repo\org\springframework\boot\spring-boot-starter-web\2.2.10.RELEASE\spring-boot-starter-web-2.2.10.RELEASE.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-starter\2.2.10.RELEASE\spring-boot-starter-2.2.10.RELEASE.jar;C:\iconnect\repo\org\springframework\boot\spring-boot\2.2.10.RELEASE\spring-boot-2.2.10.RELEASE.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-autoconfigure\2.2.10.RELEASE\spring-boot-autoconfigure-2.2.10.RELEASE.jar;C:\iconnect\repo\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\iconnect\repo\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-starter-json\2.2.10.RELEASE\spring-boot-starter-json-2.2.10.RELEASE.jar;C:\iconnect\repo\com\fasterxml\jackson\core\jackson-databind\2.10.5\jackson-databind-2.10.5.jar;C:\iconnect\repo\com\fasterxml\jackson\core\jackson-annotations\2.10.5\jackson-annotations-2.10.5.jar;C:\iconnect\repo\com\fasterxml\jackson\core\jackson-core\2.10.5\jackson-core-2.10.5.jar;C:\iconnect\repo\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.5\jackson-datatype-jdk8-2.10.5.jar;C:\iconnect\repo\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.5\jackson-datatype-jsr310-2.10.5.jar;C:\iconnect\repo\com\fasterxml\jackson\module\jackson-module-parameter-names\2.10.5\jackson-module-parameter-names-2.10.5.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-starter-tomcat\2.2.10.RELEASE\spring-boot-starter-tomcat-2.2.10.RELEASE.jar;C:\iconnect\repo\org\apache\tomcat\embed\tomcat-embed-core\9.0.38\tomcat-embed-core-9.0.38.jar;C:\iconnect\repo\org\apache\tomcat\embed\tomcat-embed-el\9.0.38\tomcat-embed-el-9.0.38.jar;C:\iconnect\repo\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.38\tomcat-embed-websocket-9.0.38.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-starter-validation\2.2.10.RELEASE\spring-boot-starter-validation-2.2.10.RELEASE.jar;C:\iconnect\repo\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\iconnect\repo\org\hibernate\validator\hibernate-validator\6.0.20.Final\hibernate-validator-6.0.20.Final.jar;C:\iconnect\repo\org\springframework\spring-web\5.2.9.RELEASE\spring-web-5.2.9.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-beans\5.2.9.RELEASE\spring-beans-5.2.9.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-webmvc\5.2.9.RELEASE\spring-webmvc-5.2.9.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-aop\5.2.9.RELEASE\spring-aop-5.2.9.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-context\5.2.9.RELEASE\spring-context-5.2.9.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-expression\5.2.9.RELEASE\spring-expression-5.2.9.RELEASE.jar;C:\iconnect\repo\org\apache\logging\log4j\log4j-api\2.13.0\log4j-api-2.13.0.jar;C:\iconnect\repo\org\apache\logging\log4j\log4j-core\2.13.0\log4j-core-2.13.0.jar;C:\iconnect\repo\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-starter-data-jpa\2.2.5.RELEASE\spring-boot-starter-data-jpa-2.2.5.RELEASE.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-starter-aop\2.2.5.RELEASE\spring-boot-starter-aop-2.2.5.RELEASE.jar;C:\iconnect\repo\org\aspectj\aspectjweaver\1.9.5\aspectjweaver-1.9.5.jar;C:\iconnect\repo\org\springframework\boot\spring-boot-starter-jdbc\2.2.5.RELEASE\spring-boot-starter-jdbc-2.2.5.RELEASE.jar;C:\iconnect\repo\com\zaxxer\HikariCP\3.4.2\HikariCP-3.4.2.jar;C:\iconnect\repo\org\springframework\spring-jdbc\5.2.4.RELEASE\spring-jdbc-5.2.4.RELEASE.jar;C:\iconnect\repo\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\iconnect\repo\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\iconnect\repo\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\iconnect\repo\org\hibernate\hibernate-core\5.4.12.Final\hibernate-core-5.4.12.Final.jar;C:\iconnect\repo\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\iconnect\repo\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\iconnect\repo\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\iconnect\repo\org\jboss\jandex\2.1.1.Final\jandex-2.1.1.Final.jar;C:\iconnect\repo\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\iconnect\repo\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\iconnect\repo\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\iconnect\repo\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\iconnect\repo\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\iconnect\repo\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\iconnect\repo\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\iconnect\repo\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\iconnect\repo\org\springframework\data\spring-data-jpa\2.2.5.RELEASE\spring-data-jpa-2.2.5.RELEASE.jar;C:\iconnect\repo\org\springframework\data\spring-data-commons\2.2.5.RELEASE\spring-data-commons-2.2.5.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-orm\5.2.4.RELEASE\spring-orm-5.2.4.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-tx\5.2.4.RELEASE\spring-tx-5.2.4.RELEASE.jar;C:\iconnect\repo\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\iconnect\repo\org\springframework\spring-aspects\5.2.4.RELEASE\spring-aspects-5.2.4.RELEASE.jar;C:\iconnect\repo\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\iconnect\repo\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\iconnect\repo\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\iconnect\repo\junit\junit\4.12\junit-4.12.jar;C:\iconnect\repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\iconnect\repo\org\mockito\mockito-core\2.22.0\mockito-core-2.22.0.jar;C:\iconnect\repo\net\bytebuddy\byte-buddy\1.8.21\byte-buddy-1.8.21.jar;C:\iconnect\repo\net\bytebuddy\byte-buddy-agent\1.8.21\byte-buddy-agent-1.8.21.jar;C:\iconnect\repo\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\iconnect\repo\org\springframework\spring-core\5.2.4.RELEASE\spring-core-5.2.4.RELEASE.jar;C:\iconnect\repo\org\springframework\spring-jcl\5.2.4.RELEASE\spring-jcl-5.2.4.RELEASE.jar, java.vm.vendor=AdoptOpenJDK, LOG_PATH=logs, sun.arch.data.model=64, user.variant=, java.vendor.url=https://adoptopenjdk.net/, catalina.useNaming=false, user.timezone=Asia/Singapore, org.apache.logging.log4j.assignedSequences=1454, os.name=Windows 10, java.vm.specification.version=11, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin, sun.java.command=com.cartexample.app.HelloWorldSpringBoot, javax.persistence.nonJtaDataSource=org.springframework.jdbc.datasource.DriverManagerDataSource@285005b8, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@38cf4497, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\P1332473, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2019-04-16, java.home=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.3+7, user.name=P1332473, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, file.encoding=Cp1252, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=AdoptOpenJDK, LOG_FILE=logs\spring.log, java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-build/issues, java.io.tmpdir=C:\Users\P1332473\AppData\Local\Temp\, catalina.home=C:\Users\P1332473\AppData\Local\Temp\tomcat.11240882484053631638.8080, java.version=11.0.3, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=C:\workspace\cartExample, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=71588, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, catalina.base=C:\Users\P1332473\AppData\Local\Temp\tomcat.11240882484053631638.8080, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@7b4619a3, java.library.path=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin/server;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\apache-maven-3.6.0\bin;C:\nodejs;C:\Program Files\Git\cmd;C:\Users\P1332473\AppData\Local\Microsoft\WindowsApps;C:\Users\P1332473\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse-java-2019-06;;., java.vendor=AdoptOpenJDK, java.vm.info=mixed mode, java.vm.version=11.0.3+7, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@285005b8, java.class.version=55.0}
+2020-10-09 10:04:49.717 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2020-10-09 10:04:49.717 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2020-10-09 10:04:49.717 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-10-09 10:04:49.717 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2020-10-09 10:04:49.717 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-10-09 10:04:49.718 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-10-09 10:04:49.722 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2020-10-09 10:04:49.722 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-10-09 10:04:49.722 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-10-09 10:04:49.722 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-10-09 10:04:49.722 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-10-09 10:04:49.722 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-10-09 10:04:49.724 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.cartexample.app.entity.Product] is safe
+2020-10-09 10:04:49.724 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cartexample.app.entity.Product
+2020-10-09 10:04:49.774 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.cartexample.app.entity.CartItem] is safe
+2020-10-09 10:04:49.775 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cartexample.app.entity.CartItem
+2020-10-09 10:04:49.780 [main] DEBUG org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+2020-10-09 10:04:49.780 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+2020-10-09 10:04:49.780 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1a89414e] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@4af7ac25]
+2020-10-09 10:04:49.838 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.cartexample.app.entity.Product] is safe
+2020-10-09 10:04:49.838 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cartexample.app.entity.Product
+2020-10-09 10:04:49.864 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.cartexample.app.entity.Product] is safe
+2020-10-09 10:04:49.864 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cartexample.app.entity.Product
+2020-10-09 10:04:50.049 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.cartexample.app.entity.CartItem] is safe
+2020-10-09 10:04:50.049 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cartexample.app.entity.CartItem
+2020-10-09 10:04:50.049 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.cartexample.app.entity.CartItem] is safe
+2020-10-09 10:04:50.049 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cartexample.app.entity.CartItem
+2020-10-09 10:04:50.071 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: com.cartexample.app.entity.Product.cartItems
+2020-10-09 10:04:50.071 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: update cart_item set product_id=? where id=?
+2020-10-09 10:04:50.071 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update cart_item set  where id=?
+2020-10-09 10:04:50.071 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: update cart_item set product_id=null where product_id=? and id=?
+2020-10-09 10:04:50.071 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: update cart_item set product_id=null where product_id=?
+2020-10-09 10:04:50.075 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cartexample.app.entity.Product
+2020-10-09 10:04:50.075 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from product where id =?
+2020-10-09 10:04:50.075 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select product_.id, product_.prod_name as prod_nam2_1_, product_.prod_price as prod_pri3_1_ from product product_ where product_.id=?
+2020-10-09 10:04:50.075 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into product (prod_name, prod_price, id) values (?, ?, ?)
+2020-10-09 10:04:50.075 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update product set prod_name=?, prod_price=? where id=?
+2020-10-09 10:04:50.075 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from product where id=?
+2020-10-09 10:04:50.075 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into product (id, prod_name, prod_price) values (null, ?, ?)
+2020-10-09 10:04:50.094 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3df6494f]
+2020-10-09 10:04:50.094 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : cartItems
+2020-10-09 10:04:50.098 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@174cb0d8]
+2020-10-09 10:04:50.099 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@341964d0]
+2020-10-09 10:04:50.100 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : prodName
+2020-10-09 10:04:50.100 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : prodPrice
+2020-10-09 10:04:50.100 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2020-10-09 10:04:50.110 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2020-10-09 10:04:50.112 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.cartexample.app.entity.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.cartexample.app.entity.Product, querySpaceUid=<gen:0>, path=com.cartexample.app.entity.Product)
+          - CollectionAttributeFetchImpl(collection=com.cartexample.app.entity.Product.cartItems, querySpaceUid=<gen:1>, path=com.cartexample.app.entity.Product.cartItems)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.cartexample.app.entity.CartItem, querySpaceUid=<gen:2>, path=com.cartexample.app.entity.Product.cartItems.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.cartexample.app.entity.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.cartexample.app.entity.Product [NONE]: select product0_.id as id1_1_0_, product0_.prod_name as prod_nam2_1_0_, product0_.prod_price as prod_pri3_1_0_ from product product0_ where product0_.id=?
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3211cc84]
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : cartItems
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@56fa0ef]
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5e278e25]
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : prodName
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : prodPrice
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.cartexample.app.entity.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.cartexample.app.entity.Product, querySpaceUid=<gen:0>, path=com.cartexample.app.entity.Product)
+          - CollectionAttributeFetchImpl(collection=com.cartexample.app.entity.Product.cartItems, querySpaceUid=<gen:1>, path=com.cartexample.app.entity.Product.cartItems)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.cartexample.app.entity.CartItem, querySpaceUid=<gen:2>, path=com.cartexample.app.entity.Product.cartItems.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.cartexample.app.entity.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2020-10-09 10:04:50.114 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.cartexample.app.entity.Product [READ]: select product0_.id as id1_1_0_, product0_.prod_name as prod_nam2_1_0_, product0_.prod_price as prod_pri3_1_0_ from product product0_ where product0_.id=?
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.cartexample.app.entity.Product: select product0_.id as id1_1_1_, product0_.prod_name as prod_nam2_1_1_, product0_.prod_price as prod_pri3_1_1_, cartitems1_.product_id as product_3_0_3_, cartitems1_.id as id1_0_3_, cartitems1_.id as id1_0_0_, cartitems1_.product_id as product_3_0_0_, cartitems1_.quantity as quantity2_0_0_ from product product0_ left outer join cart_item cartitems1_ on product0_.id=cartitems1_.product_id where product0_.id=?
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.cartexample.app.entity.Product: select product0_.id as id1_1_1_, product0_.prod_name as prod_nam2_1_1_, product0_.prod_price as prod_pri3_1_1_, cartitems1_.product_id as product_3_0_3_, cartitems1_.id as id1_0_3_, cartitems1_.id as id1_0_0_, cartitems1_.product_id as product_3_0_0_, cartitems1_.quantity as quantity2_0_0_ from product product0_ left outer join cart_item cartitems1_ on product0_.id=cartitems1_.product_id where product0_.id=?
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cartexample.app.entity.CartItem
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from cart_item where id =?
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select cartitem_.id, cartitem_.product_id as product_3_0_, cartitem_.quantity as quantity2_0_ from cart_item cartitem_ where cartitem_.id=?
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into cart_item (product_id, quantity, id) values (?, ?, ?)
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update cart_item set product_id=?, quantity=? where id=?
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from cart_item where id=?
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into cart_item (id, product_id, quantity) values (null, ?, ?)
+2020-10-09 10:04:50.124 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ddac0b6]
+2020-10-09 10:04:50.125 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product
+2020-10-09 10:04:50.125 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@628bcf2c]
+2020-10-09 10:04:50.126 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product.cartItems
+2020-10-09 10:04:50.126 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : product.cartItems
+2020-10-09 10:04:50.126 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product.prodName
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product.prodPrice
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : quantity
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.cartexample.app.entity.CartItem)
+    - Returns
+       - EntityReturnImpl(entity=com.cartexample.app.entity.CartItem, querySpaceUid=<gen:0>, path=com.cartexample.app.entity.CartItem)
+          - EntityAttributeFetchImpl(entity=com.cartexample.app.entity.Product, querySpaceUid=<gen:1>, path=com.cartexample.app.entity.CartItem.product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.cartexample.app.entity.CartItem)
+          - SQL table alias mapping - cartitem0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(product)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.cartexample.app.entity.Product)
+                - SQL table alias mapping - product1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.cartexample.app.entity.CartItem [NONE]: select cartitem0_.id as id1_0_0_, cartitem0_.product_id as product_3_0_0_, cartitem0_.quantity as quantity2_0_0_, product1_.id as id1_1_1_, product1_.prod_name as prod_nam2_1_1_, product1_.prod_price as prod_pri3_1_1_ from cart_item cartitem0_ inner join product product1_ on cartitem0_.product_id=product1_.id where cartitem0_.id=?
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18f13756]
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product
+2020-10-09 10:04:50.127 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2ac3d530]
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product.cartItems
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : product.cartItems
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product.prodName
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product.prodPrice
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : quantity
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.cartexample.app.entity.CartItem)
+    - Returns
+       - EntityReturnImpl(entity=com.cartexample.app.entity.CartItem, querySpaceUid=<gen:0>, path=com.cartexample.app.entity.CartItem)
+          - EntityAttributeFetchImpl(entity=com.cartexample.app.entity.Product, querySpaceUid=<gen:1>, path=com.cartexample.app.entity.CartItem.product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.cartexample.app.entity.CartItem)
+          - SQL table alias mapping - cartitem0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(product)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.cartexample.app.entity.Product)
+                - SQL table alias mapping - product1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.cartexample.app.entity.CartItem [READ]: select cartitem0_.id as id1_0_0_, cartitem0_.product_id as product_3_0_0_, cartitem0_.quantity as quantity2_0_0_, product1_.id as id1_1_1_, product1_.prod_name as prod_nam2_1_1_, product1_.prod_price as prod_pri3_1_1_ from cart_item cartitem0_ inner join product product1_ on cartitem0_.product_id=product1_.id where cartitem0_.id=?
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.cartexample.app.entity.CartItem: select cartitem0_.id as id1_0_0_, cartitem0_.product_id as product_3_0_0_, cartitem0_.quantity as quantity2_0_0_ from cart_item cartitem0_ where cartitem0_.id=?
+2020-10-09 10:04:50.128 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.cartexample.app.entity.CartItem: select cartitem0_.id as id1_0_0_, cartitem0_.product_id as product_3_0_0_, cartitem0_.quantity as quantity2_0_0_ from cart_item cartitem0_ where cartitem0_.id=?
+2020-10-09 10:04:50.132 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@30333941]
+2020-10-09 10:04:50.132 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2d5c160e]
+2020-10-09 10:04:50.132 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : product
+2020-10-09 10:04:50.132 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : product
+2020-10-09 10:04:50.133 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : quantity
+2020-10-09 10:04:50.133 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2020-10-09 10:04:50.135 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2020-10-09 10:04:50.135 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=com.cartexample.app.entity.Product.cartItems)
+    - Returns
+       - CollectionReturnImpl(collection=com.cartexample.app.entity.Product.cartItems, querySpaceUid=<gen:0>, path=[com.cartexample.app.entity.Product.cartItems])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.cartexample.app.entity.CartItem, querySpaceUid=<gen:1>, path=[com.cartexample.app.entity.Product.cartItems].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.cartexample.app.entity.Product.cartItems)
+          - SQL table alias mapping - cartitems0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_3_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.cartexample.app.entity.CartItem)
+                - SQL table alias mapping - cartitems0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+2020-10-09 10:04:50.136 [main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection com.cartexample.app.entity.Product.cartItems: select cartitems0_.product_id as product_3_0_0_, cartitems0_.id as id1_0_0_, cartitems0_.id as id1_0_1_, cartitems0_.product_id as product_3_0_1_, cartitems0_.quantity as quantity2_0_1_ from cart_item cartitems0_ where cartitems0_.product_id=?
+2020-10-09 10:04:50.167 [main] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:file:C:/data/sample;DB_CLOSE_DELAY=-1;AUTO_RECONNECT=TRUE]
+2020-10-09 10:04:50.201 [main] DEBUG org.hibernate.mapping.Table - No alter strings for table : cart_item
+2020-10-09 10:04:50.201 [main] DEBUG org.hibernate.mapping.Table - No alter strings for table : product
+2020-10-09 10:04:50.232 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-09 10:04:50.233 [main] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+2020-10-09 10:04:50.233 [main] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+2020-10-09 10:04:50.241 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@320e179f
+2020-10-09 10:04:50.241 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: f7ee3539-b08a-4ffe-a898-360fcce0137a (<unnamed>)
+2020-10-09 10:04:50.242 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+2020-10-09 10:04:50.242 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-09 10:04:50.251 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorldSpringBoot'
+2020-10-09 10:04:50.253 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'homeController'
+2020-10-09 10:04:50.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cartItemResource'
+2020-10-09 10:04:50.267 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cartItemServiceImpl'
+2020-10-09 10:04:50.271 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cartItemRepository'
+2020-10-09 10:04:50.373 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaMappingContext'
+2020-10-09 10:04:50.433 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2020-10-09 10:04:50.497 [main] DEBUG org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+2020-10-09 10:04:50.504 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2020-10-09 10:04:50.592 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2020-10-09 10:04:50.659 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'cartItemServiceImpl' via constructor to bean named 'cartItemRepository'
+2020-10-09 10:04:50.660 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvice'
+2020-10-09 10:04:50.661 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+2020-10-09 10:04:50.686 [main] DEBUG org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource - Adding transactional method [get*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly]
+2020-10-09 10:04:50.687 [main] DEBUG org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource - Adding transactional method [*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-*com.cartexample.app.rest.errors.*]
+2020-10-09 10:04:50.715 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'cartItemResource' via constructor to bean named 'cartItemServiceImpl'
+2020-10-09 10:04:50.718 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productResource'
+2020-10-09 10:04:50.721 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productServiceImpl'
+2020-10-09 10:04:50.723 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepository'
+2020-10-09 10:04:50.730 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2020-10-09 10:04:50.732 [main] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2020-10-09 10:04:50.750 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'productServiceImpl' via constructor to bean named 'productRepository'
+2020-10-09 10:04:50.755 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'productResource' via constructor to bean named 'productServiceImpl'
+2020-10-09 10:04:50.756 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'customGlobalExceptionHandler'
+2020-10-09 10:04:50.769 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+2020-10-09 10:04:50.771 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+2020-10-09 10:04:50.771 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2020-10-09 10:04:50.772 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+2020-10-09 10:04:50.773 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+2020-10-09 10:04:50.773 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskExecutorBuilder'
+2020-10-09 10:04:50.775 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2020-10-09 10:04:50.780 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2020-10-09 10:04:50.784 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration'
+2020-10-09 10:04:50.785 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultValidator'
+2020-10-09 10:04:50.788 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2020-10-09 10:04:50.788 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2020-10-09 10:04:50.788 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2020-10-09 10:04:50.789 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2020-10-09 10:04:50.789 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2020-10-09 10:04:50.790 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-10-09 10:04:50.791 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-10-09 10:04:50.791 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-10-09 10:04:50.792 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-10-09 10:04:50.792 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2020-10-09 10:04:50.793 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2020-10-09 10:04:50.793 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-10-09 10:04:50.793 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-10-09 10:04:50.797 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-10-09 10:04:50.798 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-10-09 10:04:50.798 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-10-09 10:04:50.798 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-10-09 10:04:50.798 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-10-09 10:04:50.808 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2020-10-09 10:04:50.810 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'error'
+2020-10-09 10:04:50.811 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameViewResolver'
+2020-10-09 10:04:50.814 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2020-10-09 10:04:50.815 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2020-10-09 10:04:50.820 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@361c294e'
+2020-10-09 10:04:50.820 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2020-10-09 10:04:50.820 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conventionErrorViewResolver'
+2020-10-09 10:04:50.822 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorAttributes'
+2020-10-09 10:04:50.824 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'basicErrorController'
+2020-10-09 10:04:50.826 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+2020-10-09 10:04:50.828 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2020-10-09 10:04:50.831 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2020-10-09 10:04:50.831 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6c2d4cc6'
+2020-10-09 10:04:50.839 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2020-10-09 10:04:50.839 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2020-10-09 10:04:50.840 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2020-10-09 10:04:50.840 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6c2d4cc6'
+2020-10-09 10:04:50.842 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptorConfigurer'
+2020-10-09 10:04:50.842 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+2020-10-09 10:04:50.843 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2020-10-09 10:04:50.844 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
+2020-10-09 10:04:50.844 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-09 10:04:50.847 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'openEntityManagerInViewInterceptorConfigurer' via factory method to bean named 'openEntityManagerInViewInterceptor'
+2020-10-09 10:04:50.849 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2020-10-09 10:04:50.850 [main] DEBUG org.springframework.core.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$bd522aee] - unable to determine constructor/method parameter names
+2020-10-09 10:04:50.851 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@361c294e'
+2020-10-09 10:04:50.853 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'pageableCustomizer'
+2020-10-09 10:04:50.853 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'
+2020-10-09 10:04:50.854 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+2020-10-09 10:04:50.855 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration' via constructor to bean named 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+2020-10-09 10:04:50.857 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sortCustomizer'
+2020-10-09 10:04:50.865 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2020-10-09 10:04:50.867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2020-10-09 10:04:50.873 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+2020-10-09 10:04:50.899 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+2020-10-09 10:04:50.903 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2020-10-09 10:04:50.903 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:50.903 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2020-10-09 10:04:50.907 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2020-10-09 10:04:50.908 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:50.908 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2020-10-09 10:04:50.922 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'messageConverters'
+2020-10-09 10:04:50.922 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2020-10-09 10:04:50.927 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+2020-10-09 10:04:50.927 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2020-10-09 10:04:50.929 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2020-10-09 10:04:50.937 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2020-10-09 10:04:50.938 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2020-10-09 10:04:50.941 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonObjectMapper'
+2020-10-09 10:04:50.942 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2020-10-09 10:04:50.950 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2020-10-09 10:04:50.952 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+2020-10-09 10:04:50.952 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2020-10-09 10:04:50.954 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2020-10-09 10:04:50.959 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@361c294e'
+2020-10-09 10:04:50.960 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2020-10-09 10:04:50.962 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@361c294e'
+2020-10-09 10:04:50.962 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+2020-10-09 10:04:50.965 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'parameterNamesModule'
+2020-10-09 10:04:50.965 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2020-10-09 10:04:50.973 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonComponentModule'
+2020-10-09 10:04:50.973 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2020-10-09 10:04:50.982 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonGeoModule'
+2020-10-09 10:04:50.983 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+2020-10-09 10:04:50.992 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+2020-10-09 10:04:51.029 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+2020-10-09 10:04:51.045 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sortResolver'
+2020-10-09 10:04:51.068 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'pageableResolver'
+2020-10-09 10:04:51.074 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'applicationTaskExecutor'
+2020-10-09 10:04:51.075 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+2020-10-09 10:04:51.081 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-09 10:04:51.099 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-09 10:04:51.135 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2020-10-09 10:04:51.136 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.138 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2020-10-09 10:04:51.138 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.139 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.139 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2020-10-09 10:04:51.139 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.139 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.171 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2020-10-09 10:04:51.180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+2020-10-09 10:04:51.180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@361c294e'
+2020-10-09 10:04:51.180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.189 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+2020-10-09 10:04:51.190 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2020-10-09 10:04:51.192 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2020-10-09 10:04:51.194 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcPathMatcher'
+2020-10-09 10:04:51.195 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcUrlPathHelper'
+2020-10-09 10:04:51.195 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.195 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.195 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2020-10-09 10:04:51.196 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.196 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.199 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'routerFunctionMapping'
+2020-10-09 10:04:51.199 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.199 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.203 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerMapping'
+2020-10-09 10:04:51.203 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcUrlPathHelper'
+2020-10-09 10:04:51.204 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcPathMatcher'
+2020-10-09 10:04:51.204 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2020-10-09 10:04:51.204 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.204 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2020-10-09 10:04:51.214 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-09 10:04:51.216 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2020-10-09 10:04:51.216 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2020-10-09 10:04:51.219 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2020-10-09 10:04:51.220 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2020-10-09 10:04:51.220 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2020-10-09 10:04:51.223 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2020-10-09 10:04:51.224 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2020-10-09 10:04:51.225 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+2020-10-09 10:04:51.225 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2020-10-09 10:04:51.233 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-09 10:04:51.236 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+2020-10-09 10:04:51.236 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2020-10-09 10:04:51.240 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultViewResolver'
+2020-10-09 10:04:51.249 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+2020-10-09 10:04:51.251 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6c2d4cc6'
+2020-10-09 10:04:51.253 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+2020-10-09 10:04:51.253 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+2020-10-09 10:04:51.253 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2020-10-09 10:04:51.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration'
+2020-10-09 10:04:51.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+2020-10-09 10:04:51.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration'
+2020-10-09 10:04:51.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+2020-10-09 10:04:51.255 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+2020-10-09 10:04:51.255 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2020-10-09 10:04:51.255 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+2020-10-09 10:04:51.256 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+2020-10-09 10:04:51.256 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.jpa.util.JpaMetamodelCacheCleanup'
+2020-10-09 10:04:51.257 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension'
+2020-10-09 10:04:51.259 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2020-10-09 10:04:51.260 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+2020-10-09 10:04:51.261 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2020-10-09 10:04:51.263 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2020-10-09 10:04:51.264 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2020-10-09 10:04:51.265 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframe

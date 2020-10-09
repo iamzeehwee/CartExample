@@ -15,16 +15,16 @@
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="get*" read-only="true"/>
-            <tx:method name="*" rollback-for="*com.cartexample.app.rest.errors.*"/>
+            <tx:method name="*" read-only="true" rollback-for="*"/>
         </tx:attributes>
     </tx:advice>
 
     <!-- ensure that the above transactional advice runs for any execution of an operation defined -->
     <aop:config proxy-target-class="true">
-        <aop:pointcut id="serviceImpl" expression="execution(* com.cartexample.app.service.impl.*ServiceImpl.*(..))"/>
-        <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceImpl"/>
+        <aop:pointcut id="servicePointCut" expression="execution(* com.cartexample.app.service.*Service.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="servicePointCut"/>
     </aop:config>
-    
+   
     <bean id="dataSource"
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${spring.datasource.driverClassName}" />

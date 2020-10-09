@@ -13,4 +13,6 @@ public interface CartItemService {
 	public String removeCartItem(int id);
 	
 	public String updateCartItem(CartItem item);
+	
+	public CartItem getOneCartItem(int id);
 }
