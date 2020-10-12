@@ -52,10 +52,10 @@ public class CartItemResource {
 	}
 	
     @DeleteMapping("/cartItem/{id}")
-    public ResponseEntity<String> deleteCart(@PathVariable int id) {
-    	cartItemService.removeCartItem(id);
-    	return new ResponseEntity<String>("Cart Item deleted", HttpStatus.OK);
-    }
+    public String deleteCart(@PathVariable int id) {
+    	return cartItemService.removeCartItem(id);
+    	//return new ResponseEntity<String>("Cart Item deleted", HttpStatus.OK);
+    } 
     
 	@PutMapping("/cartItem")
 	// Use <?> instead of CartItem, used as WildCard

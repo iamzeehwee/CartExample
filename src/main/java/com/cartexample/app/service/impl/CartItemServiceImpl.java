@@ -10,7 +10,6 @@ import com.cartexample.app.repository.CartItemRepository;
 import com.cartexample.app.service.CartItemService;
 
 @Service
-@Transactional
 public class CartItemServiceImpl implements CartItemService {
 	
 	private final CartItemRepository cartItemRepository;
@@ -33,7 +32,7 @@ public class CartItemServiceImpl implements CartItemService {
 	// Remove 1 item from cart
 	public String removeCartItem(int id) {
 		cartItemRepository.deleteById(id);
-		return "Cart Item deleted";
+		return "Cart Item removed";
 	}
 	
 	// Update cart item
@@ -47,7 +46,7 @@ public class CartItemServiceImpl implements CartItemService {
 		}
 		else if (item.getQuantity() == 0) {
 			cartItemRepository.deleteById(item.getId());
-			return "Cart Item deleted";
+			return "Cart Item removed";
 		}
 		else if (item.getQuantity() < 0) {
 			return "Negative value not allowed";

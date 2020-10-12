@@ -34,5 +34,9 @@
          	<AppenderRef ref="ConsoleAppender" />
 	        <AppenderRef ref="LogToRollingFile"/>
 	    </Logger>
+	    <Logger name="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" level="DEBUG">
+	             	<AppenderRef ref="ConsoleAppender" />
+	        <AppenderRef ref="LogToRollingFile"/>
+	    </Logger>
     </Loggers>
 </Configuration>

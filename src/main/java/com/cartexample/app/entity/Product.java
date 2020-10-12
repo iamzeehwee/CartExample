@@ -5,6 +5,7 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -31,7 +32,7 @@ public class Product {
 	@Column(name="prodPrice")
 	private float prodPrice;
 	
-	@OneToMany(mappedBy = "product", cascade=CascadeType.ALL)
+	@OneToMany(mappedBy = "product", cascade=CascadeType.ALL, orphanRemoval=true)
 	// Add this annotation to resolve Jackson infinite recursion due to bidirectional relationship
 	@JsonBackReference
 	public List<CartItem> cartItems;
