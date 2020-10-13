@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +15,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import com.cartexample.app.entity.CartItem;
 import com.cartexample.app.rest.errors.InvalidCartQuantityException;
@@ -39,27 +43,22 @@ public class CartItemResource {
 		return ResponseEntity.ok().body(items);
     }	
 	
-	/*
-	@PostMapping("/cartItem/add")
+	@RequestMapping(path = "/cartItem/add", method = RequestMethod.POST, consumes = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE, MediaType.TEXT_XML_VALUE})
 	public ResponseEntity<CartItem> addCartItem(@RequestBody CartItem item) {
 		CartItem cartItem = cartItemService.addCartItem(item);
 		return ResponseEntity.ok().body(cartItem);
-	} */
-	
-	@PostMapping("/cartItem/add")
-	public String addCartItem(@RequestBody CartItem item) {
-		return cartItemService.addCartItem(item);
-	}
+	} 
 	
     @DeleteMapping("/cartItem/{id}")
-    public String deleteCart(@PathVariable int id) {
-    	return cartItemService.removeCartItem(id);
-    	//return new ResponseEntity<String>("Cart Item deleted", HttpStatus.OK);
+    public ResponseEntity<Void> deleteCart(@PathVariable int id) {
+    	cartItemService.removeCartItem(id);
+    	return new ResponseEntity<Void>(HttpStatus.OK);
     } 
     
-	@PutMapping("/cartItem")
+	@RequestMapping(path = "/cartItem", method = RequestMethod.PUT, consumes = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE, MediaType.TEXT_XML_VALUE} )
 	// Use <?> instead of CartItem, used as WildCard
-	public String updateCartItem(@RequestBody CartItem item) {
-		return cartItemService.updateCartItem(item);
+	public ResponseEntity<CartItem> updateCartItem(@RequestBody CartItem item) {
+		item = cartItemService.updateCartItem(item);
+		return ResponseEntity.ok().body(item);
 	}
 }

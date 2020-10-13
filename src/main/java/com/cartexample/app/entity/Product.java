@@ -14,6 +14,8 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 @Table(name="product")
@@ -22,6 +24,7 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
+	@JsonIgnore // Add this to hide the id in response
 	private int id;
 	
 	@NotNull
@@ -51,10 +54,12 @@ public class Product {
 		this.prodPrice = prodPrice;
 	}
 
+	@JsonIgnore // Add this for hiding Id in response
 	public int getId() {
 		return id;
 	}
 
+	@JsonProperty // Add this for hiding Id in response
 	public void setId(int id) {
 		this.id = id;
 	}

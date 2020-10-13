@@ -24,36 +24,29 @@ public class CartItemServiceImpl implements CartItemService {
 	}
 
 	// Add 1 item into cart
-	public String addCartItem(CartItem item) {
-		cartItemRepository.save(item);
-		return "Cart item added";
+	public CartItem addCartItem(CartItem item) {
+		return cartItemRepository.save(item);
 	}
 
 	// Remove 1 item from cart
-	public String removeCartItem(int id) {
+	public void removeCartItem(int id) {
 		cartItemRepository.deleteById(id);
-		return "Cart Item removed";
 	}
 	
 	// Update cart item
-	public String updateCartItem(CartItem item) {
+	public CartItem updateCartItem(CartItem item) {
 		CartItem updateItem = cartItemRepository.getOne(item.getId());
 		
 		if (item.getQuantity() > 0) {
 			updateItem.setQuantity(item.getQuantity());
-			cartItemRepository.save(updateItem);
-			return "Quantity updated to " + item.getQuantity();
+			return cartItemRepository.save(updateItem);
 		}
 		else if (item.getQuantity() == 0) {
 			cartItemRepository.deleteById(item.getId());
-			return "Cart Item removed";
+			return cartItemRepository.getOneItem(item.getId());
 		}
-		else if (item.getQuantity() < 0) {
-			return "Negative value not allowed";
-		}
-		// Cannot test via Postman
 		else {
-			return "Invalid quantity";
+			return item;
 		}
 		
 		// Test transaction rollback
@@ -61,6 +54,6 @@ public class CartItemServiceImpl implements CartItemService {
 	}
 
 	public CartItem getOneCartItem(int id) {
-		return cartItemRepository.getOne(id);
+		return cartItemRepository.getOneItem(id);
 	}
 }

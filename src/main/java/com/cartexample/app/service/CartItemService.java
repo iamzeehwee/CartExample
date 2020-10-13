@@ -8,11 +8,11 @@ public interface CartItemService {
 
 	public List<CartItem> getAllCartItems();
 	
-	public String addCartItem(CartItem item);
+	public CartItem addCartItem(CartItem item);
 	
-	public String removeCartItem(int id);
+	public void removeCartItem(int id);
 	
-	public String updateCartItem(CartItem item);
+	public CartItem updateCartItem(CartItem item);
 	
 	public CartItem getOneCartItem(int id);
 }

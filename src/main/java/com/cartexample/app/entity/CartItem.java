@@ -10,7 +10,9 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 @Table(name="cart_item")
@@ -19,6 +21,7 @@ public class CartItem {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
+	@JsonIgnore // Add this to hide the id in response
 	private int id;
 	
 	@NotNull
@@ -48,10 +51,12 @@ public class CartItem {
 		this.product = product;
 	}
 
+	@JsonIgnore // Add this for hiding Id in response
 	public int getId() {
 		return id;
 	}
 
+	@JsonProperty // Add this for hiding Id in response
 	public void setId(int id) {
 		this.id = id;
 	}
