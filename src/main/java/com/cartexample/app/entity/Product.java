@@ -43,6 +43,10 @@ public class Product {
 	public Product() {
 	}
 	
+	public Product(int id) {
+		this.id = id;
+	}
+	
 	public Product(String prodName, float prodPrice) {
 		this.prodName = prodName;
 		this.prodPrice = prodPrice;

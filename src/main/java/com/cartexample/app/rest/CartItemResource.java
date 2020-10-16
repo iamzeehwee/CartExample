@@ -1,5 +1,7 @@
 package com.cartexample.app.rest;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -26,7 +28,7 @@ import com.cartexample.app.rest.errors.NegativeCartQuantityException;
 import com.cartexample.app.service.CartItemService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping(path = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
 public class CartItemResource {
 
 	private final CartItemService cartItemService;
@@ -44,9 +46,9 @@ public class CartItemResource {
     }	
 	
 	@RequestMapping(path = "/cartItem/add", method = RequestMethod.POST, consumes = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE, MediaType.TEXT_XML_VALUE})
-	public ResponseEntity<CartItem> addCartItem(@RequestBody CartItem item) {
+	public ResponseEntity<CartItem> addCartItem(@RequestBody CartItem item) throws URISyntaxException {
 		CartItem cartItem = cartItemService.addCartItem(item);
-		return ResponseEntity.ok().body(cartItem);
+		return ResponseEntity.created(new URI("/api/cartItem/" + cartItem.getId())).body(item);
 	} 
 	
     @DeleteMapping("/cartItem/{id}")
@@ -61,4 +63,9 @@ public class CartItemResource {
 		item = cartItemService.updateCartItem(item);
 		return ResponseEntity.ok().body(item);
 	}
+	
+	@GetMapping("/cartItem/{id}")
+	public ResponseEntity<CartItem> getOneCartItem(@PathVariable int id) {
+		return ResponseEntity.ok().body(cartItemService.getOneCartItem(id));
+    }	
 }

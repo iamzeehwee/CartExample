@@ -35,7 +35,15 @@
 	        <AppenderRef ref="LogToRollingFile"/>
 	    </Logger>
 	    <Logger name="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" level="DEBUG">
-	             	<AppenderRef ref="ConsoleAppender" />
+	        <AppenderRef ref="ConsoleAppender" />
+	        <AppenderRef ref="LogToRollingFile"/>
+	    </Logger>
+	    <Logger name="org.springframework.batch" level="DEBUG">
+	        <AppenderRef ref="ConsoleAppender" />
+	        <AppenderRef ref="LogToRollingFile"/>
+	    </Logger>
+	    <Logger name="org.springframework.test.web.servlet" level="DEBUG">
+	        <AppenderRef ref="ConsoleAppender" />
 	        <AppenderRef ref="LogToRollingFile"/>
 	    </Logger>
     </Loggers>
