@@ -22,13 +22,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import java.util.List;
 
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-
 import com.cartexample.app.HelloWorldSpringBoot;
 import com.cartexample.app.entity.CartItem;
 import com.cartexample.app.entity.Product;
-import com.cartexample.app.repository.CartItemRepository;
+import com.cartexample.app.filter.CartItemFilter;
 import com.cartexample.app.rest.CartItemResource;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.MapperFeature;
@@ -49,23 +46,25 @@ class CartItemControllerTest {
 	private MockMvc mockMvc;
 
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	public static void setUpBeforeClass() throws Exception {
 		System.out.println("---Inside setUpBeforeClass---");
 
 	}
 
 	@AfterAll
-	static void tearDownAfterClass() throws Exception {
+	public static void tearDownAfterClass() throws Exception {
 	}
 
 	@BeforeEach
-	void setUp(TestInfo testInfo) throws Exception {
+	public void setUp(TestInfo testInfo) throws Exception {
 		System.out.println("\nStart..." + testInfo.getDisplayName());
-		mockMvc = MockMvcBuilders.standaloneSetup(cartItemResource).build();
+		mockMvc = MockMvcBuilders.standaloneSetup(cartItemResource)
+				.addFilters(new CartItemFilter())
+				.build();
 	}
 
 	@AfterEach
-	void tearDown() throws Exception {
+	public void tearDown() throws Exception {
 	} 
 	/*
 	@Test
@@ -86,8 +85,8 @@ class CartItemControllerTest {
 			  .contentType(MediaType.APPLICATION_JSON)
 		      .accept(MediaType.APPLICATION_JSON))
 		      .andExpect(MockMvcResultMatchers.status().isCreated());
-     }
-	*/
+     } */
+	
 	@Test
 	public void testUpdateCartItemResource() throws Exception {		
 

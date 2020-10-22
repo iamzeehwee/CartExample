@@ -27,7 +27,7 @@ public class CartItemServiceTest {
 	public void init() {
 		cartItemService = new CartItemServiceImpl(cartItemRepository);
 	} 
-	
+	/*
 	@Test
 	public void testRetrieveAllCartItems() {
 		List<CartItem> list = new ArrayList<CartItem>();
@@ -44,7 +44,7 @@ public class CartItemServiceTest {
 		System.out.println("Retrieve from DB: " + result.toString());
 		Assert.assertTrue(result.equals(list));
 	}
-	
+	*/
 	@Test
 	public void testAddCartItem() {
 		CartItem item = new CartItem(1, 13, new Product(2, "Product B", 10));
@@ -52,10 +52,10 @@ public class CartItemServiceTest {
 		System.out.println("\nCart Item Added: " + item);
 		Assert.assertEquals(item, cartItemRepository.save(item));
 	}
-	
+	/*
 	@Test
 	public void testRemoveCartItem() {
 		cartItemService.removeCartItem(1);
 		verify(cartItemRepository, times(1)).deleteById(1);
-	}
+	}*/
 }

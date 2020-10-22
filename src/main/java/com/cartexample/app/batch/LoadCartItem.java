@@ -34,7 +34,7 @@ public class LoadCartItem {
 	@Autowired
 	private Job job;
 	
-	@Scheduled(cron="0 47 10 * * MON-FRI")
+	//@Scheduled(cron="0 47 10 * * MON-FRI")
 	public void load() throws JobParametersInvalidException, JobExecutionAlreadyRunningException, JobRestartException, JobInstanceAlreadyCompleteException {
 
         Map<String, JobParameter> maps = new HashMap<>();
@@ -43,5 +43,5 @@ public class LoadCartItem {
         logger.info("Batch is Running...");
         JobExecution jobExecution = jobLauncher.run(job, parameters);
         logger.info("JobExecution: " + jobExecution.getStatus());
-    }
+    } 
 }

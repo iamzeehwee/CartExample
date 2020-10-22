@@ -18,7 +18,7 @@ public class CartItemFieldSetMapper implements FieldSetMapper<CartItem> {
 	// Create a CartItem object by reading the values from each line
 	public CartItem mapFieldSet(FieldSet fieldSet) throws BindException {
 		
-		logger.debug("Retrieving prodId from MapFieldSet: " + fieldSet.readInt("prodId"));
+		logger.info("Retrieving prodId from MapFieldSet: " + fieldSet.readInt("prodId"));
 		
 		CartItem item = new CartItem();
 		item.setQuantity(fieldSet.readInt("quantity"));	

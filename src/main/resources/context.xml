@@ -11,7 +11,7 @@
         http://www.springframework.org/schema/aop
         https://www.springframework.org/schema/aop/spring-aop.xsd">
         
-    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+    <tx:advice id="txAdvice" transaction-manager="transManager">
         <tx:attributes>
             <tx:method name="get*" read-only="true"/>
             <tx:method name="*" />
@@ -31,7 +31,7 @@
         <property name="password" value="${spring.datasource.password}" />
 	</bean>
 
-    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+    <bean id="transManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 </beans>

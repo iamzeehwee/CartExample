@@ -7,6 +7,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.cartexample.app.entity.CartItem;
 import com.cartexample.app.repository.CartItemRepository;
+import com.cartexample.app.rest.errors.InvalidCartQuantityException;
+import com.cartexample.app.rest.errors.NegativeCartQuantityException;
 import com.cartexample.app.service.CartItemService;
 
 @Service
@@ -45,9 +47,12 @@ public class CartItemServiceImpl implements CartItemService {
 			cartItemRepository.deleteById(item.getId());
 			return cartItemRepository.getOneItem(item.getId());
 		}
-		else {
-			return item;
+		else if (item.getQuantity() < 0) {
+			throw new NegativeCartQuantityException();
 		}
+		else {
+			throw new InvalidCartQuantityException();
+		} 
 		
 		// Test transaction rollback
 		// throw new NegativeCartQuantityException();

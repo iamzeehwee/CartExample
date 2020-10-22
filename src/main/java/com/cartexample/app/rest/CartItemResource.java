@@ -4,6 +4,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 
+import javax.validation.ConstraintViolationException;
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +31,7 @@ import com.cartexample.app.rest.errors.NegativeCartQuantityException;
 import com.cartexample.app.service.CartItemService;
 
 @RestController
-@RequestMapping(path = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(path = "/api")
 public class CartItemResource {
 
 	private final CartItemService cartItemService;
@@ -45,8 +48,8 @@ public class CartItemResource {
 		return ResponseEntity.ok().body(items);
     }	
 	
-	@RequestMapping(path = "/cartItem/add", method = RequestMethod.POST, consumes = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE, MediaType.TEXT_XML_VALUE})
-	public ResponseEntity<CartItem> addCartItem(@RequestBody CartItem item) throws URISyntaxException {
+	@PostMapping("/cartItem/add")
+	public ResponseEntity<CartItem> addCartItem(@RequestBody CartItem item) throws URISyntaxException, ConstraintViolationException {
 		CartItem cartItem = cartItemService.addCartItem(item);
 		return ResponseEntity.created(new URI("/api/cartItem/" + cartItem.getId())).body(item);
 	} 
@@ -57,9 +60,9 @@ public class CartItemResource {
     	return new ResponseEntity<Void>(HttpStatus.OK);
     } 
     
-	@RequestMapping(path = "/cartItem", method = RequestMethod.PUT, consumes = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE, MediaType.TEXT_XML_VALUE} )
+	@PutMapping("/cartItem")
 	// Use <?> instead of CartItem, used as WildCard
-	public ResponseEntity<CartItem> updateCartItem(@RequestBody CartItem item) {
+	public ResponseEntity<CartItem> updateCartItem(@RequestBody CartItem item) throws NegativeCartQuantityException, InvalidCartQuantityException {
 		item = cartItemService.updateCartItem(item);
 		return ResponseEntity.ok().body(item);
 	}
